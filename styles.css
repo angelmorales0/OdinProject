@@ -1,0 +1,44 @@
+button{
+    
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#calc{
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+    background-color: rgb(62, 62, 62)
+    ;
+}
+
+#output{
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+    background-color: silver;
+    align-items: center;
+    justify-content: center;
+
+}
+
+button:hover{
+    background-color: silver;
+}
+button:active{
+    background-color: rgb(49, 48, 48);
+}
+.operator{
+    background-color: orange;
+    color: rgb(255, 255, 255);
+}
